@@ -15,10 +15,12 @@ public class Card_Stat : MonoBehaviour
     {
         
     }
-
     
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.K)) 
+        {
+            Debug.Log("kPress");
+        }
     }
 }
